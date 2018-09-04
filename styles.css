@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(29, 29, 40);
+  font-family: 'Arvo', serif;
+  color: rgb(168, 168, 192);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding: 10%;
+}
+
+p {
+  text-align: center;
+  color: rgb(236, 236, 18);
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+.current-character {
+  background-color:  rgb(168, 168, 192);
+}

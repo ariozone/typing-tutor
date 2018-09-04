@@ -8,3 +8,9 @@ h1 {
   font-size: 60px;
   padding: 10%;
 }
+p {
+  text-align: center;
+  color: rgb(168, 168, 192);
+  font-size: 30px;
+
+}

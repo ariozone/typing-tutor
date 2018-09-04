@@ -1,6 +1,7 @@
 var currentCharacter = {
    index: 0
 }
+
 var $h1 = document.createElement('h1')
 $h1.textContent = 'Typing Tutor'
 document.body.appendChild($h1)
@@ -11,13 +12,13 @@ var objArray = []
 for (var i = 0; i < charsArray.length; i++) {
   var obj = {}
   obj.letter = charsArray[i]
-  obj.number = i
   objArray.push(obj)
 }
 
 function eachChar (char) {
   var $span = document.createElement('span')
   $span.textContent = char
+  //$span.setAttribute('class', 'current-character')
   return $span
 }
 

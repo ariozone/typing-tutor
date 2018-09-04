@@ -15,17 +15,19 @@ for (var i = 0; i < charsArray.length; i++) {
   objArray.push(obj)
 }
 
-function eachChar (char) {
+function eachChar (char, i) {
   var $span = document.createElement('span')
   $span.textContent = char
-  //$span.setAttribute('class', 'current-character')
+  if (i === currentCharacter.index) {
+    $span.setAttribute('class', 'current-character')
+  }
   return $span
 }
 
 function renderString (allChars) {
   var $p = document.createElement('p')
   for (var i = 0; i < allChars.length; i++) {
-    $p.appendChild(eachChar(charsArray[i]))
+    $p.appendChild(eachChar(charsArray[i], i))
   }
   return $p
 }

@@ -10,7 +10,6 @@ for (var i = 0; i < charsArray.length; i++) {
   obj.letter = charsArray[i]
   objArray.push(obj)
 }
-//console.log(objArray)
 
 function eachChar (char) {
   var $span = document.createElement('span')

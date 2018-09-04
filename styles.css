@@ -16,3 +16,6 @@ p {
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
+.current-character {
+  background-color:  rgb(168, 168, 192);
+}

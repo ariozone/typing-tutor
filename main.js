@@ -2,6 +2,9 @@ var currentCharacter = {
   index: 0,
   failures: 0
 }
+window.addEventListener('keydown', function(e) {
+
+})
 
 var $h1 = document.createElement('h1')
 $h1.textContent = 'Typing Tutor'
